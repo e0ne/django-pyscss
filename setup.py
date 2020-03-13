@@ -11,7 +11,7 @@ def read(fname):
 
 install_requires = [
     'Django>=1.4',
-    'pyScss>=1.3.4',
+    'pyScss2',
 ]
 
 try:
@@ -27,15 +27,15 @@ tests_require = [
 ]
 
 
-version = '2.0.3.dev0'
+version = '3.0.0'
 
 
 setup(
-    name='django-pyscss',
+    name='django-pyscss2',
     version=version,
-    author="Fusionbox, Inc.",
-    author_email="programmers@fusionbox.com",
-    url="https://github.com/fusionbox/django-pyscss",
+    author="Ivan Kolodyazhny",
+    author_email="e0ne@e0ne.info",
+    url="https://github.com/e0ne/django-pyscss",
     keywords="django css scss sass pyscss compressor",
     description=__doc__,
     long_description=read('README.rst') + '\n\n' + read('CHANGELOG.rst'),
